@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mac 效率工具订阅落地页 · 推演报告(示例)</title>
+<!-- 示例页:由 h5-推演模板 v2 填充测试数据生成,画像与数据均为虚构演示 -->
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:-apple-system,BlinkMacSystemFont,'PingFang SC','Hiragino Sans GB',sans-serif;background:#F2F4F8;color:#333;line-height:1.7;font-size:15px}
+  .wrap{max-width:480px;margin:0 auto;padding:20px 14px 40px}
+  .badge{display:inline-block;background:#EEF4FE;color:#1E6FE8;font-size:12px;font-weight:600;padding:4px 12px;border-radius:20px;letter-spacing:1px}
+  h1{font-size:21px;color:#1a1a1a;margin:12px 0 4px;line-height:1.4}
+  .meta{color:#8A94A2;font-size:13px;margin-bottom:18px}
+  .card{background:#fff;border-radius:12px;padding:16px;margin-bottom:14px;box-shadow:0 1px 3px rgba(20,40,80,.06)}
+  .card h2{font-size:15px;color:#1E6FE8;margin-bottom:10px;font-weight:700}
+  .summary{font-size:16px;font-weight:600;color:#1a1a1a}
+  .funnel{display:flex;align-items:center;gap:6px;flex-wrap:wrap;font-size:13px;font-weight:600}
+  .funnel .stage{background:#EEF4FE;color:#1E4E9E;border-radius:8px;padding:6px 12px}
+  .funnel .arrow{color:#B8C2CE}
+  .funnel .drop{background:#FFF0EA;color:#C2411A}
+  .persona{border-left:3px solid #1E6FE8}
+  .p-head{display:flex;align-items:center;gap:10px;margin-bottom:10px}
+  .avatar{width:38px;height:38px;border-radius:50%;background:#1E6FE8;color:#fff;font-weight:700;display:flex;align-items:center;justify-content:center;font-size:16px;flex-shrink:0}
+  .p-name{font-weight:700;font-size:15px}
+  .p-tag{color:#8A94A2;font-size:12px}
+  .chips{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0 4px}
+  .chip{font-size:12px;padding:2px 10px;border-radius:12px;font-weight:600}
+  .chip.yes{background:#E8F6EE;color:#1E7B45}
+  .chip.no{background:#F4F5F7;color:#9AA3AE;text-decoration:line-through}
+  .bar-row{display:flex;align-items:center;gap:8px;margin:5px 0;font-size:12px}
+  .bar-label{width:74px;color:#666;flex-shrink:0}
+  .bar-track{flex:1;height:8px;background:#EDF0F4;border-radius:4px;overflow:hidden}
+  .bar-fill{height:100%;background:#1E6FE8;border-radius:4px}
+  .bar-fill.low{background:#FF6F3C}
+  .bar-num{width:30px;text-align:right;color:#333;font-weight:600;flex-shrink:0}
+  .mono{background:#FBFAF5;border-radius:8px;padding:9px 12px;margin-top:10px;font-size:13px;color:#7A6E52}
+  .mono b{font-size:11px;color:#B0A583;display:block;margin-bottom:2px;font-weight:600;letter-spacing:1px}
+  .quote{background:#F7F9FC;border-radius:8px;padding:10px 12px;margin-top:8px;font-size:14px;color:#444}
+  .quote b{font-size:11px;color:#93A5C4;display:block;margin-bottom:2px;font-weight:600;letter-spacing:1px}
+  .story p{font-size:14px;color:#3d3d3d;margin-bottom:10px}
+  .theme{background:#fff;border-radius:12px;padding:14px 16px;margin-bottom:10px;box-shadow:0 1px 3px rgba(20,40,80,.06)}
+  .theme-head{display:flex;align-items:center;gap:8px;margin-bottom:8px}
+  .theme-title{font-weight:700;font-size:14px;color:#1a1a1a}
+  .count{background:#EEF4FE;color:#1E6FE8;font-size:11px;font-weight:700;border-radius:10px;padding:2px 8px}
+  .theme li{font-size:13px;margin-bottom:6px;color:#444}
+  .theme .who{color:#8A94A2;font-size:12px}
+  ul{padding-left:18px}
+  li{margin-bottom:8px;font-size:14px}
+  .src{color:#8A94A2;font-size:12px}
+  .footer{text-align:center;color:#8A94A2;font-size:12px;margin-top:22px;line-height:2}
+  .warn{background:#FFF7F0;border-radius:8px;padding:10px 12px;font-size:13px;color:#8a5a2a}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <span class="badge">平行世界 · 推演报告</span>
+  <h1>Mac 效率工具订阅落地页文案</h1>
+  <div class="meta">R-001 · 示例数据 · 3 位数字分身参与</div>
+
+  <div class="card">
+    <h2>结论摘要</h2>
+    <p class="summary">可以上线测试,但别当终稿。最大风险是「首月 9.9 → 次月 39」的价格跳变呈现方式,最值得改的一处是把真实月费前置。</p>
+  </div>
+
+  <div class="card">
+    <h2>行为漏斗</h2>
+    <div class="funnel">
+      <span class="stage">看到 3 人</span><span class="arrow">→</span>
+      <span class="stage">点进去 1 人</span><span class="arrow">→</span>
+      <span class="stage">试用 1 人</span><span class="arrow">→</span>
+      <span class="stage drop">付费 0 人</span>
+    </div>
+    <p style="font-size:13px;color:#8A94A2;margin-top:8px">断在「付费」,入口转化同样偏弱——价格跳变的呈现方式把两级都伤了。</p>
+  </div>
+
+  <div class="card persona">
+    <div class="p-head">
+      <div class="avatar">张</div>
+      <div><div class="p-name">张姐</div><div class="p-tag">42 岁 · 县城个体户 · 怕花冤枉钱</div></div>
+    </div>
+    <div class="chips"><span class="chip no">点进去</span><span class="chip no">试用</span><span class="chip no">付费</span></div>
+    <div class="bar-row"><span class="bar-label">想不想点</span><div class="bar-track"><div class="bar-fill" style="width:15%"></div></div><span class="bar-num">15</span></div>
+    <div class="bar-row"><span class="bar-label">看不看得懂</span><div class="bar-track"><div class="bar-fill" style="width:70%"></div></div><span class="bar-num">70</span></div>
+    <div class="bar-row"><span class="bar-label">觉得值不值</span><div class="bar-track"><div class="bar-fill low" style="width:10%"></div></div><span class="bar-num">10</span></div>
+    <div class="mono"><b>心理独白</b>又是软件广告。效率工具?我的账本都是手记的,划走划走。</div>
+    <div class="quote"><b>原话</b>我又不用苹果电脑,这跟我有啥关系。</div>
+  </div>
+
+  <div class="card persona">
+    <div class="p-head">
+      <div class="avatar">李</div>
+      <div><div class="p-name">小李</div><div class="p-tag">26 岁 · 运营 · 爱尝鲜月底没钱</div></div>
+    </div>
+    <div class="chips"><span class="chip yes">✓ 点进去</span><span class="chip yes">✓ 试用</span><span class="chip no">付费</span></div>
+    <div class="bar-row"><span class="bar-label">想不想点</span><div class="bar-track"><div class="bar-fill" style="width:85%"></div></div><span class="bar-num">85</span></div>
+    <div class="bar-row"><span class="bar-label">看不看得懂</span><div class="bar-track"><div class="bar-fill" style="width:90%"></div></div><span class="bar-num">90</span></div>
+    <div class="bar-row"><span class="bar-label">觉得值不值</span><div class="bar-track"><div class="bar-fill low" style="width:35%"></div></div><span class="bar-num">35</span></div>
+    <div class="mono"><b>心理独白</b>9 块 9 诶,亏不了……等等,次月 39?先试了再说,到时候记得取消。</div>
+    <div class="quote"><b>原话</b>9 块 9 我肯定试,39 嘛……到时候再说。</div>
+  </div>
+
+  <div class="card persona">
+    <div class="p-head">
+      <div class="avatar">禾</div>
+      <div><div class="p-name">阿禾</div><div class="p-tag">30 岁 · 自由设计师 · 讨厌订阅套路</div></div>
+    </div>
+    <div class="chips"><span class="chip no">点进去</span><span class="chip no">试用</span><span class="chip no">付费</span></div>
+    <div class="bar-row"><span class="bar-label">想不想点</span><div class="bar-track"><div class="bar-fill" style="width:20%"></div></div><span class="bar-num">20</span></div>
+    <div class="bar-row"><span class="bar-label">看不看得懂</span><div class="bar-track"><div class="bar-fill" style="width:85%"></div></div><span class="bar-num">85</span></div>
+    <div class="bar-row"><span class="bar-label">觉得值不值</span><div class="bar-track"><div class="bar-fill low" style="width:15%"></div></div><span class="bar-num">15</span></div>
+    <div class="mono"><b>心理独白</b>设计倒是干净。但「首月 9.9」这种钩子,后面必有埋伏……果然,39。</div>
+    <div class="quote"><b>原话</b>别整这套「首月 9 块 9」的把戏,有本事把真实的月费直接写在最上面,我大概率会认真看看。</div>
+  </div>
+
+  <div class="card story">
+    <h2>推演纪实</h2>
+    <p>三位分身在各自的信息流里遇到了这个落地页。小李几乎是秒点,冲着 9 块 9 进去的,翻到「次月 39」那行停了两秒,最后还是开了试用,心里记着「到时候取消」——这类用户会推高你的试用数据,然后在第二个月安静地消失。</p>
+    <p>张姐划过去两次都没停下,「效率工具」四个字从头到尾没能进入她的世界。阿禾点开又关掉,他其实认可页面设计,但价格结构触发了他对订阅套路的全部戒备,「套路感一露馅,好感全没」。三个人,零付费,而且反对的理由各不相同——这比一致差评更值得警惕。</p>
+  </div>
+
+  <div class="theme">
+    <div class="theme-head"><span class="theme-title">价格与订阅方式怎么看?</span><span class="count">3 人提及</span></div>
+    <ul>
+      <li>把真实月费写在最上面,别玩首月钩子<span class="who">——阿禾</span></li>
+      <li>试用可以,次月自动扣 39 会让我提前设闹钟取消<span class="who">——小李</span></li>
+      <li>便宜也是钱,用两次吃灰最冤<span class="who">——张姐</span></li>
+    </ul>
+  </div>
+
+  <div class="theme">
+    <div class="theme-head"><span class="theme-title">第一眼被什么吸引/劝退?</span><span class="count">2 人提及</span></div>
+    <ul>
+      <li>9 块 9 是唯一钩子,产品本身没被说清<span class="who">——小李</span></li>
+      <li>「效率工具」四个字太泛,和我无关<span class="who">——张姐</span></li>
+    </ul>
+  </div>
+
+  <div class="theme">
+    <div class="theme-head"><span class="theme-title">信任感</span><span class="count">2 人提及</span></div>
+    <ul>
+      <li>价格藏着掖着 = 套路感,好感清零<span class="who">——阿禾</span></li>
+      <li>好评我不信,先翻差评<span class="who">——张姐</span></li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>共识与分歧</h2>
+    <p><b>共识</b>,文案看得懂,但「首月低价、次月跳涨」的呈现方式普遍引发戒备,信任损耗大于低价的吸引。</p>
+    <p style="margin-top:6px"><b>分歧</b>,小李愿意先试(尝鲜设定,低门槛就点);阿禾直接反感(被订阅套路伤过);张姐与产品不对口(非 Mac 用户,本场本不该拉她进来——见校准)。</p>
+  </div>
+
+  <div class="card">
+    <h2>改进建议</h2>
+    <ul>
+      <li>真实月费 39 元写进首屏,附「年付享 2 个月免费」<span class="src">——来自阿禾的反应</span></li>
+      <li>「随时取消」从小字提为主文案,降低跳涨戒备<span class="src">——来自小李的反应</span></li>
+      <li>首屏补一句「它替你干什么」,别只卖便宜<span class="src">——来自小李的反应</span></li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>置信度</h2>
+    <p>低——本画像库尚未经真实数据校准,本场结论只能当参考,不能当依据。</p>
+    <div class="warn" style="margin-top:10px">这是筛子,真金白银的决定,请再找真人验证。</div>
+  </div>
+
+  <div class="footer">
+    由 parallel-world skill 生成(本页为示例,数据虚构)<br>
+    数字分身用户推演 · 作者 邱一尺(公众号同名)
+  </div>
+
+</div>
+</body>
+</html>
