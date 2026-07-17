@@ -1,0 +1,9 @@
+{
+  "name": "neon-district-2077",
+  "private": true,
+  "version": "1.0.0",
+  "description": "赛博朋克雨夜 FPS — three.js 单文件实现",
+  "scripts": {
+    "dev": "node server.js"
+  }
+}
